@@ -1,0 +1,11 @@
+.turbo
+build/**
+dist/**
+node_modules/
+.env
+.env.production
+.dev.vars
+
+# logs
+*.log
+apps/hono/public

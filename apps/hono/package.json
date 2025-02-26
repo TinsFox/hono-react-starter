@@ -1,0 +1,14 @@
+{
+  "name": "hono",
+  "scripts": {
+    "dev": "wrangler dev --test-scheduled --port 8787",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "hono": "^4.7.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250214.0",
+    "wrangler": "^3.109.2"
+  }
+}
